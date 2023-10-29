@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(0, 0, 0);
+
+}
+.wrapper{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+thead{
+    color:#f9f4f4;
+    font-size: 32px;
+}
+thead th{
+    border: 2px solid #fff;
+
+}
+tbody td{
+    border: 2px solid #fff; 
+ 
+}
+td{
+    border: 2px solid #fff; 
+
+}
+h2{
+    border-bottom: 2px solid;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+tbody > tr > tr > td{
+    width: 520px;
+}
